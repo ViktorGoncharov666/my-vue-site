@@ -72,7 +72,7 @@ export default {
         let request = new FormData(form);
         let responseBlock = document.getElementById("response-block");
         this.$store.dispatch('blockButton');
-        fetch("https://formcarry.com/s/QiUdEb9NdK", {
+        fetch("https://formcarry.com/s/7sLeN1bnWr2", {
           method: "POST",
           headers: {
             "Content-type": "application/json",
